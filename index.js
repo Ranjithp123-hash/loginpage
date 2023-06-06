@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const connect = require("./config/db");
-const usercontroller = require("./controllers/user.controller");
-const moviecontroller = require("./controllers/movie.controller");
+const connect = require("./src/config/db");
+const usercontroller = require("./src/controllers/user.controller");
+const moviecontroller = require("./src/controllers/movie.controller");
 
 app.use(express.json());
 require("dotenv");
